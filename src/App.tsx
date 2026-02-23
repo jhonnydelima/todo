@@ -1,3 +1,4 @@
+import { Badge } from "./components/badge";
 import { Icon } from "./components/icon";
 import { Text } from "./components/text";
 
@@ -18,6 +19,11 @@ export function App() {
         <Icon name="spinner" animate={true} />
         <Icon name="trash" className="fill-gray-300" />
         <Icon name="x" className="fill-pink-dark" />
+      </div>
+
+      <div>
+        <Badge variant="secondary">5</Badge>
+        <Badge variant="primary">2 de 5</Badge>
       </div>
     </div>
   );
